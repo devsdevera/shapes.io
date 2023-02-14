@@ -1,0 +1,91 @@
+
+// BONUS CODE
+
+  //if (up == true && left == false && right == false)p.up();
+  //if (down == true && left == false && right == false)p.down();
+  //if (left == true && up == false && down == false)p.left();
+  //if (right == true && up == false && down == false)p.right();
+  //if (up == true && right == true)p.upRight();
+  ////if (up == true && left == true)p.upLeft();
+  //if (down == true && right == true)p.downRight();
+  //if (down == true && left == true)p.downLeft();
+  
+  
+    
+    //if(p.returnLevel() >= 5 && opponentCount == 0){opponents.add(new Opponent(100, 100, 
+    //1, 10, 40, 1, 300, 500, 1000, 0.4));opponentCount++;}
+    
+    //if(p.returnLevel() >= 5 && opponentCount == 0){opponents.add(new Opponent(100, 100));opponentCount++;}
+    
+    //if(p.returnLevel() >= 15 && opponentCount == 0){opponents.add(new Opponent(width - 100, 
+    //height - 100, 3, 2, 100, 0, 300, 500, 100, 2));opponentCount++;}
+    
+    //if(p.returnLevel() >= 5 && opponentCount == 0){opponents.add(new Opponent(100, 100));opponentCount++;}
+  
+
+
+
+CHART
+
+
+/**
+    fill(20);
+    for(int x = -3; x < 3; x++){
+      for (int y = -3; y < 3; y++){
+        textSize(16);
+        text("Maximum Health", rightX - chartWidth + 20 + statWidth / 2 + x,  topY + 10 + statHeight / 2 + 5 + y);
+        text("Health Regen", rightX - chartWidth + 20 + statWidth / 2 + x,  topY + 44 + statHeight / 2 + 5 + y);
+        text("Bullet Speed", rightX - chartWidth + 20 + statWidth / 2 + x,  topY + 78 + statHeight / 2 + 5 + y);
+        text("Bullet Damage", rightX - chartWidth + 20 + statWidth / 2 + x,  topY + 112 + statHeight / 2 + 5 + y);
+        text("Bullet Distance", rightX - chartWidth + 20 + statWidth / 2 + x,  topY + 146 + statHeight / 2 + 5 + y);
+        text("Body Damage", rightX - chartWidth + 20 + statWidth / 2 + x,  topY + 180 + statHeight / 2 + 5 + y);
+        text("Movement Speed", rightX - chartWidth + 20 + statWidth / 2 + x,  topY + 214 + statHeight / 2 + 5 + y);
+        textSize(30);
+        text("Available :  " + p.returnPoints(), rightX - chartWidth + 20 + statWidth / 2 + x, topY + 10 + statHeight / 2 + 5 - 34 + y);
+      }
+    }
+    fill(255);
+    for(int x = -1; x < 1; x++){
+      for (int y = -1; y < 1; y++){
+        textSize(16);
+        text("Maximum Health", rightX - chartWidth + 20 + statWidth / 2 + x,  topY + 10 + statHeight / 2 + 5 + y);
+        text("Health Regen", rightX - chartWidth + 20 + statWidth / 2 + x,  topY + 44 + statHeight / 2 + 5 + y);
+        text("Bullet Speed", rightX - chartWidth + 20 + statWidth / 2 + x,  topY + 78 + statHeight / 2 + 5 + y);
+        text("Bullet Damage", rightX - chartWidth + 20 + statWidth / 2 + x,  topY + 112 + statHeight / 2 + 5 + y);
+        text("Bullet Distance", rightX - chartWidth + 20 + statWidth / 2 + x,  topY + 146 + statHeight / 2 + 5 + y);
+        text("Body Damage", rightX - chartWidth + 20 + statWidth / 2 + x,  topY + 180 + statHeight / 2 + 5 + y);
+        text("Movement Speed", rightX - chartWidth + 20 + statWidth / 2 + x,  topY + 214 + statHeight / 2 + 5 + y);
+        textSize(30);
+        text("Available :  " + p.returnPoints(), rightX - chartWidth + 20 + statWidth / 2 + x, topY + 10 + statHeight / 2 + 5 - 34 + y);
+      }
+    }
+    
+    */
+
+
+
+
+OPPONENT
+
+
+/*
+Opponent(float X, float Y, float BS, float BS2, float BD, float BD2, float D, float D2, 
+  float MS, float MS2, float R, float R2, float S, float S2, float MH, float MH2, float BR, float BR2) {
+    startX = X;
+    startY = Y;
+    
+    bulletSpeed = BS + (p.level * ((BS2 - BS / 30)));
+    bulletDamage = BD + (p.level * ((BD2 - BD / 30)));
+    bulletDistance = D + (p.level * ((D2 - D / 30)));
+    movementSpeed = MS + (p.level * ((MS2 - MS / 30)));
+    range = R + (p.level * ((R2 - R / 30)));
+    sight = S + (p.level * ((S2 - S / 30)));
+    maxHealth = MH + (p.level * ((MH2 - MH / 30)));
+    healthDecrement = maxHealth;
+    health = maxHealth;
+    bulletReload = BR + (p.level * ((BR2 - BR / 30)));
+    
+  }
+
+*/
+  
