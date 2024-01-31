@@ -74,7 +74,7 @@ void admin(){
 void setup(){ 
   if (m > 1) m -= 1;  // special 240 fps condition
   
-  size(1260, 720);
+  size(width, 720);
   frameRate(frameR);
   noStroke();
   ellipseMode(CENTER);
